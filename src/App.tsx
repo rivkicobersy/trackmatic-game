@@ -1,13 +1,13 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Leaderboard from './components/Leaderboard';
-import Game from './components/Game';
-import GameOver from './components/GameOver';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Leaderboard from "./components/Leaderboard";
+import Game from "./components/Game";
+import GameOver from "./components/GameOver";
 
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-gray-900 text-white font-sans">
+      <div className="min-h-screen  text-white font-sans">
         <Routes>
           <Route path="/" element={<Leaderboard />} />
           <Route path="/game" element={<Game />} />
