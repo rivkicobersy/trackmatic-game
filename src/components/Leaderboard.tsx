@@ -76,8 +76,8 @@ const Leaderboard: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-4 bg-onyx text-white font-sans bg-white">
-      <div className="max-w-md w-full bg-onyx rounded-lg shadow-xl overflow-hidden">
+    <div className="min-h-screen overflow-hidden flex flex-col items-center justify-center p-4 bg-onyx text-white font-sans">
+      <div className="max-w-md w-full bg-onyx rounded-lg shadow-lg ring-1 ring-midnight/70">
         <div className="bg-midnight p-6 flex items-center justify-between">
           <h1 className="text-2xl font-bold flex items-center space-x-2">
             <button
@@ -92,7 +92,7 @@ const Leaderboard: React.FC = () => {
           <Trophy className="text-seafoam" size={28} />
         </div>
 
-        <div className="p-6">
+        <div className="mb-6 bg-[#1a1f2eea] rounded-lg overflow-hidden p-2">
           <div className="mb-4">
             <h2 className="text-xl font-semibold">Top Delivery Drivers</h2>
           </div>
